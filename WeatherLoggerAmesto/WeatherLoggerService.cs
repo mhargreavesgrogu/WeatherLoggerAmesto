@@ -22,8 +22,8 @@ namespace WeatherLoggerAmesto
             var request = new HttpRequestMessage(HttpMethod.Get, "https://swetest-dwefa3gva8erbchn.swedencentral-01.azurewebsites.net/WeatherForecast");
 
             // Adderar HTTP-header för autentisering 
-            // API-nyckel exponeras, vid publicering använd verktyg likt Azure Key Vault med en MSI
-            var API_KEY = "";
+            // API-nyckel exponeras, vid publicering av kritisk API-nyckel använd verktyg likt Azure Key Vault med en MSI
+            var API_KEY = "b7e8e2e2-2e2a-4e4b-9c8e-7a2e1d3f4b5c";
             request.Headers.Add("x-api-key", API_KEY);
 
             //Adderar önskat responseformat JSON 

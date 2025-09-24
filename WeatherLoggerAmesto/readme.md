@@ -8,4 +8,6 @@ For a `TimerTrigger` to work, you provide a schedule in the form of a [cron expr
 
 ## Learn more
 
-<TODO> Documentation
+Documentation
+
+Azure Function that repeatedly displays the weather forecast every 2 minutes.
